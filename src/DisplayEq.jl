@@ -1,3 +1,5 @@
+include("Equation.jl")
+
 function shorten_exp(exp)
     # regex for extracting args from sin and cos
     trig_arg = r"(?<=cos|sin)\(.+?\)"

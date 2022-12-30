@@ -1,3 +1,6 @@
+include("Robot.jl")
+include("Equation.jl")
+
 function Transform(α, a, d, θ)
     [
         cos(θ) 			-sin(θ) 		0 		a
@@ -49,3 +52,5 @@ end
 
 
 split(A::Robot, i) = Equation(split(transforms(A), i, A.target))
+
+sympy.simplify(E::Equation) = Equation(sympy.simplify(E.lh), sympy.simplify(E.rh))
