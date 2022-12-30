@@ -1,7 +1,7 @@
 module IK_Solver
 
-# using SymPy
-# using LaTeXStrings
+using SymPy
+using LaTeXStrings
 
 
 # include("Robot.jl")
