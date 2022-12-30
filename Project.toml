@@ -1,6 +1,6 @@
 name = "IK_Solver"
 uuid = "95b0655d-ba0d-4c39-8edd-c370738036c0"
-authors = ["Brian Burrous <brianon007@gmail.com>"]
+authors = ["Brian Burrous"]
 version = "0.1.0"
 
 [deps]
