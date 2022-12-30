@@ -1,0 +1,7 @@
+name = "IK_Solver"
+uuid = "95b0655d-ba0d-4c39-8edd-c370738036c0"
+authors = ["Brian Burrous <brianon007@gmail.com>"]
+version = "0.1.0"
+
+[deps]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
