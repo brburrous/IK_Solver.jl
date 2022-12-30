@@ -4,7 +4,7 @@ using SymPy
 using LaTeXStrings
 
 
-# include("Robot.jl")
+include("Robot.jl")
 # include("Equation.jl")
 # include("HelperFunctions.jl")
 # include("DisplayEq.jl")

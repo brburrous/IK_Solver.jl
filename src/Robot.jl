@@ -1,6 +1,5 @@
 # Type that defines a serial Robot
 # With DH parameters "DH" and target end effector position "target"
-print("test")
 
 struct Robot
     DH:Array
