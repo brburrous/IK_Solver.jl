@@ -11,7 +11,7 @@ end
 
 # Constructor with standard target matrix
 function Robot(DH::Array)
-    A = Sym.([
+    A = SymPy.Sym.([
     "r₁₁" "r₁₂" "r₁₃" "p_x"
     "r₂₁" "r₂₂" "r₂₃" "p_y"
     "r₃₁" "r₃₂" "r₃₃" "p_z"
