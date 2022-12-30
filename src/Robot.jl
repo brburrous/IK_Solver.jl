@@ -2,7 +2,7 @@
 # With DH parameters "DH" and target end effector position "target"
 
 struct Robot
-    DH:Array
+    DH::Array
     target
 end
 
