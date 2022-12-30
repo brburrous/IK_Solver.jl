@@ -1,11 +1,13 @@
 # Type that defines a serial Robot
 # With DH parameters "DH" and target end effector position "target"
+print("test")
 
 struct Robot
-    DH::Array
+    DH:Array
     target
-    # Ts
 end
+
+
 # DH table follows format: DH(a, α, d, θ)
 
 # Constructor with standard target matrix
@@ -19,6 +21,3 @@ function Robot(DH::Array)
     target = vcat(A, B)
     Robot(DH, target)
 end
-
-
-sympy.simplify(E::Equation) = Equation(sympy.simplify(E.lh), sympy.simplify(E.rh))
