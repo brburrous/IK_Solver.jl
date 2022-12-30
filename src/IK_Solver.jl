@@ -5,10 +5,10 @@ using LaTeXStrings
 
 
 include("Robot.jl")
-# include("Equation.jl")
-# include("HelperFunctions.jl")
-# include("DisplayEq.jl")
-# include("Rotation.jl")
+include("Equation.jl")
+include("HelperFunctions.jl")
+include("DisplayEq.jl")
+include("Rotation.jl")
 foo(x) = print("Hello $x")
 
 greet() = print("Hello World!")
