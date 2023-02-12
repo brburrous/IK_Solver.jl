@@ -7,7 +7,7 @@ struct Robot
 end
 
 
-# DH table follows format: DH(a, α, d, θ)
+# DH table follows format: DH(α, a, d, θ)
 
 # Constructor with standard target matrix
 function Robot(DH::Array)
